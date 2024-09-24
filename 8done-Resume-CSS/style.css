@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #dad7d7;
+}
+
+header {
+    padding: 2rem 4rem;
+    border-bottom: 2px solid #29213f;
+}
+header h1 {
+    font-size: 40px;
+    text-decoration: underline;
+    color: rgb(115, 115, 189);
+    text-align: center;
+}
+header h2 {
+    text-align: center;
+}
+header ul {
+    list-style: none;
+}
+header ul li a {
+    color: inherit;
+    text-decoration: none;
+    font-style: normal;
+}
+header img {
+    text-align: center;
+    display: block;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+    filter: grayscale();
+    margin: 1rem auto;
+}
+main {
+    margin: 2rem 4rem;
+}
+main h3 {
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+section{
+    margin: 2rem 4rem;
+}
+section p {
+    max-width: 80ch;
+    font-size: .8rem;
+    letter-spacing: 0.5px;
+}
+section li {
+    font-size: .8rem;
+    letter-spacing: 0.5px;
+    margin: .5rem;
+}
+h3 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+h4 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-decoration: underline;
+}
+hr {
+    width: 70px;
+    height: 8px;
+    background-color: rgb(115, 115, 189);
+    margin: 16px auto 32px auto;
+    border: none;
+}
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+
+footer ul li {
+    font-size: .8rem;
+    letter-spacing: 0.5px;
+    margin: .5rem;
+}
